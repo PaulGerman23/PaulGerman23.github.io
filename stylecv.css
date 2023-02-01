@@ -1,0 +1,170 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+.contenedor {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.columnIz{
+    position: relative;
+    background:rgb(169, 0, 247);
+    padding: 40px;
+}
+.columnDe{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.infoPersonal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 4px solid gray;
+}
+
+.imagen{
+    margin-bottom: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagen img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.infoPersonal{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.infoPersonal span{
+font-size: 0.8em;
+font-weight: 300;
+}
+.infoContacto{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid gray;      
+
+}
+
+.infoContacto ul{
+    position: relative;
+}
+.infoContacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+.infoContacto span{
+    color: #fff;
+    font-weight: 300;
+}
+.icono{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: rgb(0, 17, 255);
+}
+
+.titulo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+ .box{
+     display: flex;
+     flex-direction: row;
+     margin: 20px 0;
+ }
+
+ .año{
+     min-width: 150px;
+ }
+
+ .año h5{
+     text-transform: uppercase;
+     color: darkmagenta ;
+ }
+
+ .texto h4{
+     text-transform: uppercase;
+     color:cornflowerblue;
+ }
+ .columnDe h2{
+     margin: 30px;
+     text-align: center;
+
+ }
+
+ .habilidades .box{
+     position: relative;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 150px 1fr;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .habilidades h4{
+     text-transform: uppercase;
+     color: darkmagenta;
+ }
+
+
+.hobbies ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.hobbies{ 
+    text-align: center;
+}
+
+.hobbies p{
+    margin-top: 10px;
+}
+
+.hobbies button{
+    cursor: pointer;
+}
+
+.columnDe h2{
+    border-bottom: 4px solid gray;
+}
