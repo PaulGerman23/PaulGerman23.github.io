@@ -1,0 +1,244 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    flex-direction: column;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background: rgb(18, 82, 102);
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  } 
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover{
+    background: rgb(255, 145, 0);
+}
+.contenedor {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.columnIz{
+    position: relative;
+    background:rgb(44, 43, 42);
+    padding: 40px;
+}
+.columnDe{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    text-align: justify;
+    
+}
+
+#complementario p{
+    color: rgb(255, 115, 0);
+}
+
+#interes{
+    display:none ;
+    
+    color:rgb(255, 115, 0);
+}
+#interes span{
+    font-size: 30px;
+    margin: 10px;
+    
+}
+#interes div{
+       margin: auto;
+       display: flex;
+       align-items: center;
+}
+
+.infoPersonal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 4px solid gray;
+}
+
+.imagen{
+    margin-bottom: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.imagen img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.infoPersonal{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.infoPersonal span{
+font-size: 0.8em;
+font-weight: 300;
+}
+.infoContacto{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid gray;      
+    
+}
+
+.infoContacto ul{
+    position: relative;
+}
+.infoContacto h3{
+    text-align: center;
+}
+.infoContacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.infoContacto span{
+    color: #fff;
+    font-weight: 300;
+}
+.icono{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: rgb(0, 17, 255);
+}
+
+.titulo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+ .box{
+     display: flex;
+     flex-direction: row;
+     margin: 20px 0;
+ }
+
+ .año{
+     min-width: 150px;
+ }
+
+ .año h5{
+     text-transform: uppercase;
+     color: rgb(0, 81, 255) ;
+ }
+#idioma{
+    border-bottom: 0;
+}
+
+#idioma ul{
+margin-left: 60px;
+}
+ .texto h4{
+     text-transform: uppercase;
+     
+ }
+ .columnDe h2{
+     margin: 30px;
+     text-align: center;
+
+ }
+
+ .habilidades .box{
+     position: relative;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 150px 1fr;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .habilidades h4{
+     text-transform: uppercase;
+     color: darkmagenta;
+ }
+.habprof{
+    margin-left: 25%;
+}
+
+.hobbies ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.hobbies{ 
+    text-align: center;
+}
+
+.hobbies p{
+    margin-top: 10px;
+}
+
+
+.columnDe h2{
+    border-bottom: 4px solid gray;
+}
+
+.hobbies button{
+    padding: 0.3em 0.5em;
+    font-size: 1re;
+    border: 0.2em solid gray;
+    color: #fff;
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition-property: transform ;
+    transition-duration: 0.3s;
+    transition-timing-function: ease ;
+    transition-delay: 0s ;
+}
+
+.hobbies button:hover{
+    transform: translateY(-5px);
+    }
